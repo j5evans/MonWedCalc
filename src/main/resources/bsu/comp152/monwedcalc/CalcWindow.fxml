@@ -88,17 +88,17 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="232.0" prefWidth="472.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Button mnemonicParsing="false" onAction="#subtractButtonPressed" prefHeight="232.0" prefWidth="472.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="230.0" prefWidth="457.0" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                  <Button mnemonicParsing="false" onAction="#multiplyButtonPressed" prefHeight="230.0" prefWidth="457.0" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="320.0" prefWidth="494.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                  <Button mnemonicParsing="false" onAction="#divideButtonPressed" prefHeight="320.0" prefWidth="494.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <font>
                         <Font name="System Bold Italic" size="14.0" />
                      </font>
