@@ -6,6 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
 public class CalcWindow {
+    private int firstNumber;
 
     @FXML
     private TextField numberField;
@@ -21,5 +22,12 @@ public class CalcWindow {
     @FXML
     public void clearButtonPressed() {
         numberField.clear();
+    }
+
+    @FXML
+    public void addButtonPressed() {
+        var numberAsText = numberField.getText();
+        firstNumber = Integer.parseInt(numberAsText);
+        numberField.setText(""); //Just a different way to clear
     }
 }

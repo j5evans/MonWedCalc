@@ -73,6 +73,21 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
+                  <Button mnemonicParsing="false" onAction="#clearButtonPressed" prefHeight="274.0" prefWidth="686.0" text="CLEAR" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="184.0" prefWidth="431.0" text="+" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="330.0" prefWidth="621.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
                </children>
             </GridPane>
          </children>
