@@ -28,6 +28,6 @@ public class CalcWindow {
     public void addButtonPressed() {
         var numberAsText = numberField.getText();
         firstNumber = Integer.parseInt(numberAsText);
-        numberField.setText(""); //Just a different way to clear
+        numberField.setText(""); //Just a different way to clear text
     }
 }
